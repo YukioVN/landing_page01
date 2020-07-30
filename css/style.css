@@ -15,6 +15,11 @@ body {
     font-family: "Open Sans";
 }
 
+.clear {
+    /* Clearing the space when float is used*/
+    clear: both;
+}
+
 .center {
     width: 1200px;
     margin: 0 auto;
@@ -185,6 +190,10 @@ input[type="tel"] {
     padding: 30px;
 }
 
+.container-single :last-child {
+    margin-right: 0;
+}
+
 .container-single p {
     display: inline-block;
     text-align: justify;
@@ -193,4 +202,15 @@ input[type="tel"] {
 
 .container-single img {
     width: 80px;
+}
+
+.footer {
+    padding: 20px 0;
+    border-top: 4px solid #888;
+    text-align: center;
+    color: #888
+}
+
+.footer p {
+    margin-top: 8px;
 }
